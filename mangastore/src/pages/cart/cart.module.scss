@@ -1,0 +1,53 @@
+.none {
+  display: none;
+}
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  gap: 20px;
+  .background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 35%;
+    background-color: black;
+    opacity: 0.5;
+    min-height: 100vh;
+  }
+  .container  {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 65%;
+    background-color: lightgrey;
+    padding: 20px 40px;
+    flex: 1;
+    height: 100vh;
+    width: 35%;
+    .items{
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      height: 75%;
+      margin: 40px 0;
+    }
+    .buttons{
+      button {
+        background-color: tomato;
+        border:none;
+        width: 150px;
+        height: 50px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px pink ;
+        cursor: pointer;
+      }
+    }
+  }
+}
+

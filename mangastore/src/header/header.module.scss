@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  .logoWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .sum {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .cartIcon{
+      cursor: pointer;
+    }
+  }
+}

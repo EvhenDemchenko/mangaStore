@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 5px gray;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+  img {
+    cursor: pointer;
+  }
+    .price{
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
